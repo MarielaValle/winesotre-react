@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+  }
+  
+  a {
+    color:#712B42;
+    
+  }
+  
+  body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    
+    
+  }
+  /* Colores */
+  .fucsia{
+    background-color: #C23C5E;
+  }
+  .bordo{
+    background-color: #712B42;
+  }
+  .negro{
+    background-color: #0C0910;
+  }
+  .beige{
+    background-color: #DAC9C1;
+  }
+  .marron{
+    background-color: #726765;
+  }
+  /*----menu de navegación----*/
+  .nav-item.nav-link{
+    color : #C23C5E !important;
+    font-size: 16px;
+  }
+  /*----footer----*/
+  .pie-footer{
+    background-color : #C23C5E !important;
+    color: white;
+  }
+  .pie-footer h6{
+    font-size: 12px;
+  }
+  
