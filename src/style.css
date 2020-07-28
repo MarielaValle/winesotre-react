@@ -22,9 +22,17 @@
     
   }
 
- #card bg-info{
-
-    background-color: #712B42
- }
-
  
+
+.card.bg-info.text-white.shadow{
+
+  background-color:#712B42 !important;
+}
+
+.text-primary {
+  color: black;
+}
+
+
+
+
