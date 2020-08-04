@@ -19,7 +19,7 @@ function App() {
       </head>
 
 
-      <div id="content-wrapper" class="d-flex flex-column">
+      <div id="content-wrapper" className="d-flex flex-column">
 
         <div id="content">
           <Topbar />
@@ -28,15 +28,23 @@ function App() {
 
        
         <div className="container-fluid">
-          <Dashboard />
-          <div class="row">
+          <Dashboard 
+          totalProductos='12'
+          totalValorProductos='8000'
+          totalUsuarios='2'
+          
+          />
+          <div className="row">
+            
+            <div className="col-lg-6 mb-4">
+              <UltimoProducto 
 
-            <div class="col-lg-6 mb-4">
-              <UltimoProducto />
+              let variedades = {['Blend', 'Malbec', 'Cabernet Franc', 'Chardonnay', '100 % Chardonay']}
+              />
             </div>
 
-            <div class="col-lg-6 mb-4">
-              <Categorias />
+            <div className="col-lg-6 mb-4">
+              <Categorias/>
             </div>
 
           </div>
